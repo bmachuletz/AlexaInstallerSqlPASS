@@ -74,3 +74,6 @@
 *.txt
 /SqlPassInstallWebApi/LoginBody
 /SqlPassInstallWebApi/LoginHeaders
+/SqlPassInstaller/.vs
+/SqlPassInstaller/SqlPassInstaller/bin
+/SqlPassInstaller/SqlPassInstaller/obj

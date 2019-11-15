@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlPassInstallWebApi", "SqlPassInstallWebApi\SqlPassInstallWebApi.csproj", "{1FEB9D6A-2A7B-46F9-B6D1-A97353480A36}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlPassInstallerFunc", "..\SqlPassInstaller\SqlPassInstaller\SqlPassInstallerFunc.csproj", "{04ABC944-D236-4198-B62B-6E7A41EEB64B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlPassInstallerShared", "SqlPassInstallerShared\SqlPassInstallerShared.csproj", "{CE357394-B593-47A5-A96B-DFC81354EC19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlPassInstallerShared", "SqlPassInstallerShared\SqlPassInstallerShared.csproj", "{CE357394-B593-47A5-A96B-DFC81354EC19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlPassInstallerFunc", "SqlPassInstaller\SqlPassInstaller\SqlPassInstallerFunc.csproj", "{F4838217-790D-4B9F-AA6E-97BE82DFF9CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{1FEB9D6A-2A7B-46F9-B6D1-A97353480A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FEB9D6A-2A7B-46F9-B6D1-A97353480A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FEB9D6A-2A7B-46F9-B6D1-A97353480A36}.Release|Any CPU.Build.0 = Release|Any CPU
-		{04ABC944-D236-4198-B62B-6E7A41EEB64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04ABC944-D236-4198-B62B-6E7A41EEB64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04ABC944-D236-4198-B62B-6E7A41EEB64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04ABC944-D236-4198-B62B-6E7A41EEB64B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CE357394-B593-47A5-A96B-DFC81354EC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CE357394-B593-47A5-A96B-DFC81354EC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE357394-B593-47A5-A96B-DFC81354EC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE357394-B593-47A5-A96B-DFC81354EC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4838217-790D-4B9F-AA6E-97BE82DFF9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4838217-790D-4B9F-AA6E-97BE82DFF9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4838217-790D-4B9F-AA6E-97BE82DFF9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4838217-790D-4B9F-AA6E-97BE82DFF9CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
