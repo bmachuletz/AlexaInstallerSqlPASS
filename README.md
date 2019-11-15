@@ -10,3 +10,5 @@ ALEXA installiert einen SQL Server
 6. Fertig!!
 
 7. Mit der installierten DEMO-Umgebung kann man dann Sachen machen :)
+
+Die entsprechenden Powershell-Scripte für die Erstellung der Availability Groups werden nach der Überarbeitung nachgereicht.
