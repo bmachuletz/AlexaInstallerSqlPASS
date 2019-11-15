@@ -33,8 +33,8 @@ namespace SqlPassInstallWebApi.Controllers
                 case AlexaCommandType.INSTALL_SQLSERVER:
                     using (PowerShell PowerShellInstance = PowerShell.Create())
                     {
-                        string functions = System.IO.File.ReadAllText(Path.Combine(MyScriptFolder, "Functions.ps1");
-                        string script = System.IO.File.ReadAllText(Path.Combine(MyScriptFolder, "InstallSqlServer.ps1");
+                        string functions = System.IO.File.ReadAllText(Path.Combine(MyScriptFolder, "Functions.ps1"));
+                        string script = System.IO.File.ReadAllText(Path.Combine(MyScriptFolder, "InstallSqlServer.ps1"));
 
                         PowerShellInstance.AddScript(functions);
                         PowerShellInstance.AddScript(script);
