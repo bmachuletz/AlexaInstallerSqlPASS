@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlPassInstallWebApi", "SqlPassInstallWebApi\SqlPassInstallWebApi.csproj", "{1FEB9D6A-2A7B-46F9-B6D1-A97353480A36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlPassInstallerFunc", "..\SqlPassInstaller\SqlPassInstaller\SqlPassInstallerFunc.csproj", "{04ABC944-D236-4198-B62B-6E7A41EEB64B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlPassInstallerShared", "SqlPassInstallerShared\SqlPassInstallerShared.csproj", "{CE357394-B593-47A5-A96B-DFC81354EC19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FEB9D6A-2A7B-46F9-B6D1-A97353480A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEB9D6A-2A7B-46F9-B6D1-A97353480A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEB9D6A-2A7B-46F9-B6D1-A97353480A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEB9D6A-2A7B-46F9-B6D1-A97353480A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04ABC944-D236-4198-B62B-6E7A41EEB64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04ABC944-D236-4198-B62B-6E7A41EEB64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04ABC944-D236-4198-B62B-6E7A41EEB64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04ABC944-D236-4198-B62B-6E7A41EEB64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE357394-B593-47A5-A96B-DFC81354EC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE357394-B593-47A5-A96B-DFC81354EC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE357394-B593-47A5-A96B-DFC81354EC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE357394-B593-47A5-A96B-DFC81354EC19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {782176BF-BF93-4090-90E7-978C708D1D31}
+	EndGlobalSection
+EndGlobal
